@@ -1,0 +1,31 @@
+{
+  "name": "pkgcloud-image",
+  "version": "0.1.0",
+  "author": {
+    "name": "egg",
+    "email": "i@egg.pe.kr"
+  },
+  "description": "Image resize and upload by pkgcloud.",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/egg-/pkgcloud-image.git"
+  },
+  "keywords": [
+    "image",
+    "resize",
+    "pkgcloud",
+    "s3"
+  ],
+  "license": "MIT",
+  "main": "./index",
+  "devDependencies": {
+    "aws-sdk": "^2.2.20"
+  },
+  "dependencies": {
+    "async": "^1.5.0",
+    "gm": "^1.21.1",
+    "pkgcloud": "^1.1.0",
+    "shortid": "^2.2.4"
+  }
+}
